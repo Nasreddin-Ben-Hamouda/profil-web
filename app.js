@@ -73,10 +73,13 @@
         <div class="bar"><i style="width:${l.pct}%"></i></div>
       </div>`).join("");
 
+    document.getElementById("hero-skills").innerHTML = CONTENT.skills
+      .flatMap((g) => g.items).map((x) => `<span>${esc(pick(x, lang))}</span>`).join("");
+
     document.getElementById("skills-list").innerHTML = CONTENT.skills.map((g) => `
       <div class="skill-group">
         <h3>${esc(pick(g.group, lang))}</h3>
-        <div class="tags">${g.items.map((x) => `<span>${esc(x)}</span>`).join("")}</div>
+        <div class="tags">${g.items.map((x) => `<span>${esc(pick(x, lang))}</span>`).join("")}</div>
       </div>`).join("");
 
     try { localStorage.setItem("lang", lang); } catch (e) { /* storage unavailable */ }

@@ -235,7 +235,7 @@ const CONTENT = {
     { group: { de: "Backend", en: "Backend", fr: "Backend", ar: "الواجهة الخلفية" }, items: ["Laravel", "Symfony", "Spring Boot", "Node.js / Express"] },
     { group: { de: "Frontend & Mobile", en: "Frontend & mobile", fr: "Frontend & mobile", ar: "الواجهات والجوال" }, items: ["Vue.js", "React", "Angular", "Ionic"] },
     { group: { de: "Cloud & DevOps", en: "Cloud & DevOps", fr: "Cloud & DevOps", ar: "السحابة وDevOps" }, items: ["AWS Lambda", "S3", "DynamoDB", "Docker", "Terraform", "GitLab CI/CD"] },
-    { group: { de: "KI & Automatisierung", en: "AI & automation", fr: "IA & automatisation", ar: "الذكاء الاصطناعي والأتمتة" }, items: ["Claude Code", "ChatGPT", "AI video generation", "Veo 3", "Speech-to-text (Whisper)", "FFmpeg", "Python automation"] },
+    { group: { de: "KI & Automatisierung", en: "AI & automation", fr: "IA & automatisation", ar: "الذكاء الاصطناعي والأتمتة" }, items: ["Claude Code", "ChatGPT", { de: "KI-Videogenerierung", en: "AI video generation", fr: "Génération vidéo IA", ar: "توليد الفيديو بالذكاء الاصطناعي" }, "Veo 3", "Speech-to-text (Whisper)", "FFmpeg", "Python automation"] },
     { group: { de: "Datenbanken & Tools", en: "Databases & tools", fr: "Bases de données & outils", ar: "قواعد البيانات والأدوات" }, items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Git", "Jira", "Scrum"] }
   ],
 
