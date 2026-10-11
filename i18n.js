@@ -179,8 +179,8 @@ const CONTENT = {
 
   experience: [
     { date: { de: "Jan. 2025 – heute", en: "Jan 2025 – present", fr: "janv. 2025 – aujourd'hui", ar: "يناير 2025 – حتى الآن" },
-      role: { de: "Selbstständige Backend- & DevOps-Projekte", en: "Independent backend & DevOps projects", fr: "Projets backend & DevOps indépendants", ar: "مشاريع مستقلة في الواجهة الخلفية وDevOps" },
-      org: "Self-initiated", place: { de: "Deutschland", en: "Germany", fr: "Allemagne", ar: "ألمانيا" },
+      role: { de: "Eigene Backend- & DevOps-Projekte", en: "Independent backend & DevOps projects", fr: "Projets backend & DevOps indépendants", ar: "مشاريع مستقلة في الواجهة الخلفية وDevOps" },
+      org: { de: "Eigeninitiative", en: "Self-initiated", fr: "Initiative personnelle", ar: "مبادرة شخصية" }, place: { de: "Deutschland", en: "Germany", fr: "Allemagne", ar: "ألمانيا" },
       text: { de: "Eigene Projekte mit PHP (Laravel, Symfony), AWS (Lambda, S3, DynamoDB), Terraform, GitLab CI/CD sowie Vue.js und React.",
               en: "Personal projects with PHP (Laravel, Symfony), AWS (Lambda, S3, DynamoDB), Terraform, GitLab CI/CD, Vue.js and React.",
               fr: "Projets personnels avec PHP (Laravel, Symfony), AWS (Lambda, S3, DynamoDB), Terraform, GitLab CI/CD, Vue.js et React.",
@@ -249,7 +249,7 @@ const CONTENT = {
     { group: { de: "Backend", en: "Backend", fr: "Backend", ar: "الواجهة الخلفية" }, items: ["Laravel", "Symfony", "Spring Boot", "Node.js / Express"] },
     { group: { de: "Frontend & Mobile", en: "Frontend & mobile", fr: "Frontend & mobile", ar: "الواجهات والجوال" }, items: ["Vue.js", "React", "Angular", "Ionic"] },
     { group: { de: "Cloud & DevOps", en: "Cloud & DevOps", fr: "Cloud & DevOps", ar: "السحابة وDevOps" }, items: ["AWS Lambda", "S3", "DynamoDB", "Docker", "Terraform", "GitLab CI/CD"] },
-    { group: { de: "KI & Automatisierung", en: "AI & automation", fr: "IA & automatisation", ar: "الذكاء الاصطناعي والأتمتة" }, items: ["Claude Code", "ChatGPT", { de: "KI-Videogenerierung", en: "AI video generation", fr: "Génération vidéo IA", ar: "توليد الفيديو بالذكاء الاصطناعي" }, "Veo 3", "Speech-to-text (Whisper)", "FFmpeg", "Python automation"] },
+    { group: { de: "KI & Automatisierung", en: "AI & automation", fr: "IA & automatisation", ar: "الذكاء الاصطناعي والأتمتة" }, items: ["Claude Code", "ChatGPT", { de: "KI-Videogenerierung", en: "AI video generation", fr: "Génération vidéo IA", ar: "توليد الفيديو بالذكاء الاصطناعي" }, "Veo 3", "Speech-to-text (Whisper)", "FFmpeg", { de: "Python-Automatisierung", en: "Python automation", fr: "Automatisation Python", ar: "الأتمتة بلغة Python" }] },
     { group: { de: "Datenbanken & Tools", en: "Databases & tools", fr: "Bases de données & outils", ar: "قواعد البيانات والأدوات" }, items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Git", "Jira", "Scrum"] }
   ],
 

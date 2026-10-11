@@ -61,7 +61,7 @@
       <li>
         <span class="t-date">${esc(pick(e.date, lang))}</span>
         <h3>${esc(pick(e.role || e.title, lang))}</h3>
-        <p class="t-org">${esc(e.org)}${e.place ? " · " + esc(pick(e.place, lang)) : ""}</p>
+        <p class="t-org">${esc(pick(e.org, lang))}${e.place ? " · " + esc(pick(e.place, lang)) : ""}</p>
         ${withText && e.text ? `<p>${esc(pick(e.text, lang))}</p>` : ""}
       </li>`).join("");
     document.getElementById("experience-list").innerHTML = tl(CONTENT.experience, true);
