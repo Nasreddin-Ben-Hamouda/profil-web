@@ -33,7 +33,7 @@ const I18N = {
     "skills.title": "Kenntnisse", "languages.title": "Sprachen",
     "contact.title": "Kontakt",
     "contact.text": "Sie haben ein Projekt, eine Stelle oder eine Video-Idee? Schreiben Sie mir – ich antworte in der Regel innerhalb von 24 Stunden.",
-    "contact.email": "E-Mail schreiben", "contact.github": "GitHub-Profil",
+    "contact.email": "E-Mail schreiben", "contact.github": "GitHub-Profil", "contact.linkedin": "LinkedIn-Profil",
     "footer.rights": "Alle Rechte vorbehalten.",
     "lvl.native": "Muttersprache"
   },
@@ -68,7 +68,7 @@ const I18N = {
     "skills.title": "Skills", "languages.title": "Languages",
     "contact.title": "Contact",
     "contact.text": "Have a project, a job opening or a video idea? Write to me – I usually reply within 24 hours.",
-    "contact.email": "Send an email", "contact.github": "GitHub profile",
+    "contact.email": "Send an email", "contact.github": "GitHub profile", "contact.linkedin": "LinkedIn profile",
     "footer.rights": "All rights reserved.",
     "lvl.native": "Native"
   },
@@ -103,7 +103,7 @@ const I18N = {
     "skills.title": "Compétences", "languages.title": "Langues",
     "contact.title": "Contact",
     "contact.text": "Vous avez un projet, une offre d'emploi ou une idée de vidéo ? Écrivez-moi – je réponds généralement sous 24 heures.",
-    "contact.email": "Envoyer un e-mail", "contact.github": "Profil GitHub",
+    "contact.email": "Envoyer un e-mail", "contact.github": "Profil GitHub", "contact.linkedin": "Profil LinkedIn",
     "footer.rights": "Tous droits réservés.",
     "lvl.native": "Langue maternelle"
   },
@@ -138,7 +138,7 @@ const I18N = {
     "skills.title": "المهارات", "languages.title": "اللغات",
     "contact.title": "تواصل معي",
     "contact.text": "هل لديك مشروع أو فرصة عمل أو فكرة فيديو؟ راسلني – عادةً أرد خلال 24 ساعة.",
-    "contact.email": "أرسل بريدًا إلكترونيًا", "contact.github": "حساب GitHub",
+    "contact.email": "أرسل بريدًا إلكترونيًا", "contact.github": "حساب GitHub", "contact.linkedin": "حساب LinkedIn",
     "footer.rights": "جميع الحقوق محفوظة.",
     "lvl.native": "اللغة الأم"
   }
