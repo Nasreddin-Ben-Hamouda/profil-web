@@ -19,3 +19,5 @@ python3 -m http.server 8000
 
 - Add a project: append an entry to `CONTENT.projects` in `i18n.js` (`cat` is `web`, `mobile` and/or `other`; `repo` is a public GitHub URL or `null` for private repos)
 - Change your photo: replace `assets/nasreddine.webp` (square) and `assets/nasreddine.jpg` (link preview)
+
+After changing `style.css`, `i18n.js` or `app.js`, bump the `?v=` version on their tags in `index.html` so visitors' browsers load the new files instead of a cached copy.
