@@ -1,6 +1,6 @@
 # profil-web
 
-Personal portfolio of **Nasreddine Ben Hamouda** – software developer (backend, cloud & web) and AI video production, based in Erfurt, Germany.
+Personal portfolio of **Nasreddine Ben Hamouda** – software developer (backend, cloud & web) and AI video production, based in Germany.
 
 Live site: https://nasreddin-ben-hamouda.github.io/profil-web/
 

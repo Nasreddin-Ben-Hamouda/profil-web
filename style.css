@@ -114,7 +114,7 @@ p { margin: 0 0 1em; }
 .bar i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
 
 /* skills */
-.skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .skill-group { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 
 /* contact */
@@ -128,6 +128,7 @@ p { margin: 0 0 1em; }
 @media (max-width: 980px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
   .projects { grid-template-columns: repeat(2, 1fr); }
+  .skills { grid-template-columns: repeat(2, 1fr); }
   .nav { display: none; }
   .lang { margin-inline-start: auto; }
 }
@@ -135,7 +136,7 @@ p { margin: 0 0 1em; }
   .section { padding-block: 60px; }
   .hero { padding-block: 48px; }
   .hero-grid, .about-grid, .ai-grid, .two-col { grid-template-columns: 1fr; gap: 32px; }
-  .cards, .projects { grid-template-columns: 1fr; }
+  .cards, .projects, .skills { grid-template-columns: 1fr; }
   .brand-name { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .project { transition: none; } }
