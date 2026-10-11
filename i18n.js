@@ -230,6 +230,20 @@ const CONTENT = {
       org: "ISET Bizerte" }
   ],
 
+  /* Short, general list shown under the photo in the header. */
+  heroSkills: [
+    { de: "Backend-Entwicklung", en: "Backend development", fr: "Développement backend", ar: "تطوير الواجهة الخلفية" },
+    { de: "REST-APIs", en: "REST APIs", fr: "API REST", ar: "واجهات REST" },
+    "PHP · Laravel · Symfony", "Java · Spring Boot", "Node.js",
+    { de: "Frontend (Vue.js, React)", en: "Frontend (Vue.js, React)", fr: "Frontend (Vue.js, React)", ar: "الواجهات الأمامية (Vue.js وReact)" },
+    { de: "Mobile Apps", en: "Mobile apps", fr: "Applications mobiles", ar: "تطبيقات الجوال" },
+    { de: "Cloud (AWS)", en: "Cloud (AWS)", fr: "Cloud (AWS)", ar: "الحوسبة السحابية (AWS)" },
+    "DevOps & CI/CD",
+    { de: "Datenbanken", en: "Databases", fr: "Bases de données", ar: "قواعد البيانات" },
+    { de: "KI-Videogenerierung", en: "AI video generation", fr: "Génération vidéo IA", ar: "توليد الفيديو بالذكاء الاصطناعي" },
+    { de: "KI-Tools & Automatisierung", en: "AI tools & automation", fr: "Outils IA & automatisation", ar: "أدوات الذكاء الاصطناعي والأتمتة" }
+  ],
+
   skills: [
     { group: { de: "Programmiersprachen", en: "Languages", fr: "Langages", ar: "لغات البرمجة" }, items: ["PHP", "Java", "JavaScript", "TypeScript", "Python"] },
     { group: { de: "Backend", en: "Backend", fr: "Backend", ar: "الواجهة الخلفية" }, items: ["Laravel", "Symfony", "Spring Boot", "Node.js / Express"] },

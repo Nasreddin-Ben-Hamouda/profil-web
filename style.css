@@ -57,7 +57,7 @@ p { margin: 0 0 1em; }
 .avatar { width: 180px; height: 180px; margin: 0 auto 22px; border-radius: 50%; object-fit: cover; border: 5px solid var(--surface); box-shadow: 0 0 0 3px var(--accent), var(--shadow); }
 .chips { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; }
 .chips span, .tags span { font-size: .8rem; font-weight: 600; padding: 5px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); direction: ltr; unicode-bidi: isolate; }
-.chips span { font-size: .76rem; padding: 4px 9px; }
+.chips span { font-size: .8rem; padding: 5px 11px; direction: inherit; unicode-bidi: plaintext; }
 
 /* about */
 .about-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; align-items: center; }

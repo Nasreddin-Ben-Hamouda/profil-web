@@ -73,8 +73,7 @@
         <div class="bar"><i style="width:${l.pct}%"></i></div>
       </div>`).join("");
 
-    document.getElementById("hero-skills").innerHTML = CONTENT.skills
-      .flatMap((g) => g.items).map((x) => `<span>${esc(pick(x, lang))}</span>`).join("");
+    document.getElementById("hero-skills").innerHTML = CONTENT.heroSkills.map((x) => `<span>${esc(pick(x, lang))}</span>`).join("");
 
     document.getElementById("skills-list").innerHTML = CONTENT.skills.map((g) => `
       <div class="skill-group">
