@@ -35,7 +35,7 @@ const I18N = {
     "contact.title": "Kontakt",
     "contact.text": "Sie haben ein Projekt, eine Stelle oder eine Video-Idee? Schreiben Sie mir – ich antworte in der Regel innerhalb von 24 Stunden.",
     "contact.email": "E-Mail schreiben", "contact.github": "GitHub-Profil", "contact.linkedin": "LinkedIn-Profil",
-    "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.rights": "Alle Rechte vorbehalten.", "footer.imprint": "Impressum", "footer.privacy": "Datenschutz",
     "lvl.native": "Muttersprache"
   },
   en: {
@@ -71,7 +71,7 @@ const I18N = {
     "contact.title": "Contact",
     "contact.text": "Have a project, a job opening or a video idea? Write to me – I usually reply within 24 hours.",
     "contact.email": "Send an email", "contact.github": "GitHub profile", "contact.linkedin": "LinkedIn profile",
-    "footer.rights": "All rights reserved.",
+    "footer.rights": "All rights reserved.", "footer.imprint": "Legal notice", "footer.privacy": "Privacy policy",
     "lvl.native": "Native"
   },
   fr: {
@@ -107,7 +107,7 @@ const I18N = {
     "contact.title": "Contact",
     "contact.text": "Vous avez un projet, une offre d'emploi ou une idée de vidéo ? Écrivez-moi – je réponds généralement sous 24 heures.",
     "contact.email": "Envoyer un e-mail", "contact.github": "Profil GitHub", "contact.linkedin": "Profil LinkedIn",
-    "footer.rights": "Tous droits réservés.",
+    "footer.rights": "Tous droits réservés.", "footer.imprint": "Mentions légales", "footer.privacy": "Confidentialité",
     "lvl.native": "Langue maternelle"
   },
   ar: {
@@ -143,7 +143,7 @@ const I18N = {
     "contact.title": "تواصل معي",
     "contact.text": "هل لديك مشروع أو فرصة عمل أو فكرة فيديو؟ راسلني – عادةً أرد خلال 24 ساعة.",
     "contact.email": "أرسل بريدًا إلكترونيًا", "contact.github": "حساب GitHub", "contact.linkedin": "حساب LinkedIn",
-    "footer.rights": "جميع الحقوق محفوظة.",
+    "footer.rights": "جميع الحقوق محفوظة.", "footer.imprint": "بيانات الناشر", "footer.privacy": "سياسة الخصوصية",
     "lvl.native": "اللغة الأم"
   }
 };
