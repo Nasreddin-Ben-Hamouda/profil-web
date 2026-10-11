@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nasreddine Ben Hamouda – Softwareentwickler (Backend &amp; Cloud)</title>
+  <meta name="description" content="Nasreddine Ben Hamouda – Software developer in Erfurt, Germany. Laravel, Spring Boot, Node.js, AWS, Docker, Terraform. Web development, cloud & DevOps and AI video production.">
+  <meta property="og:title" content="Nasreddine Ben Hamouda – Software Developer">
+  <meta property="og:description" content="Backend, cloud & web development · AI video production · Erfurt, Germany">
+  <meta property="og:image" content="https://nasreddin-ben-hamouda.github.io/profil-web/assets/nasreddine.jpg">
+  <meta property="og:url" content="https://nasreddin-ben-hamouda.github.io/profil-web/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://nasreddin-ben-hamouda.github.io/profil-web/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' fill='white' text-anchor='middle'%3ENB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#top" class="brand" aria-label="Nasreddine Ben Hamouda"><span class="brand-mark">NB</span><span class="brand-name">Nasreddine Ben Hamouda</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="#about" data-i18n="nav.about">Über mich</a>
+        <a href="#services" data-i18n="nav.services">Leistungen</a>
+        <a href="#projects" data-i18n="nav.projects">Projekte</a>
+        <a href="#experience" data-i18n="nav.experience">Erfahrung</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="de">DE</button><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="ar">ع</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow" data-i18n="hero.hello">Hallo, ich bin</p>
+          <h1>Nasreddine Ben Hamouda</h1>
+          <p class="role" data-i18n="hero.role">Softwareentwickler – Backend, Cloud &amp; Web</p>
+          <p class="lead" data-i18n="hero.tagline"></p>
+          <p class="loc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg><span data-i18n="hero.location">Erfurt, Deutschland</span></p>
+          <div class="cta">
+            <a class="btn primary" href="#projects" data-i18n="hero.cta.projects">Projekte ansehen</a>
+            <a class="btn ghost" href="#contact" data-i18n="hero.cta.contact">Projekt anfragen</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img class="avatar" src="assets/nasreddine.webp" alt="Nasreddine Ben Hamouda" width="640" height="640">
+          <div class="chips">
+            <span>Laravel</span><span>Spring Boot</span><span>Node.js</span><span>Vue.js</span><span>React</span><span>AWS</span><span>Docker</span><span>Terraform</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap about-grid">
+        <div>
+          <h2 data-i18n="about.title">Über mich</h2>
+          <p data-i18n="about.text1"></p>
+          <p data-i18n="about.text2"></p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>3+</strong><span data-i18n="about.stat.years">Jahre Erfahrung</span></div>
+          <div class="stat"><strong id="projectCount">19</strong><span data-i18n="about.stat.projects">Projekte</span></div>
+          <div class="stat"><strong>4</strong><span data-i18n="about.stat.languages">Sprachen</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="wrap">
+        <h2 data-i18n="services.title">Leistungen</h2>
+        <p class="sub" data-i18n="services.intro"></p>
+        <div class="cards" id="services-list"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2 data-i18n="projects.title">Projekte</h2>
+        <p class="sub" data-i18n="projects.intro"></p>
+        <div class="filters" role="tablist">
+          <button class="active" data-filter="all" data-i18n="projects.filter.all">Alle</button>
+          <button data-filter="web" data-i18n="projects.filter.web">Web &amp; Backend</button>
+          <button data-filter="mobile" data-i18n="projects.filter.mobile">Mobile</button>
+          <button data-filter="other" data-i18n="projects.filter.other">Weitere</button>
+        </div>
+        <div class="projects" id="projects-list"></div>
+      </div>
+    </section>
+
+    <section id="ai-video" class="section alt">
+      <div class="wrap ai-grid">
+        <div>
+          <h2 data-i18n="ai.title">KI-Videoproduktion</h2>
+          <p data-i18n="ai.text"></p>
+          <ul class="ticks">
+            <li data-i18n="ai.point1"></li><li data-i18n="ai.point2"></li><li data-i18n="ai.point3"></li>
+          </ul>
+          <a class="btn primary" href="#contact" data-i18n="ai.cta">Video anfragen</a>
+        </div>
+        <div class="ai-gallery">
+          <img src="assets/fen-nubi-duo.webp" alt="Fen & Nubi" class="g-main" width="900" height="900">
+          <img src="assets/ep1-scene.webp" alt="Fen & Nubi – episode 1" width="540" height="960">
+          <img src="assets/ep2-scene.webp" alt="Fen & Nubi – episode 2" width="540" height="960">
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrap two-col">
+        <div>
+          <h2 data-i18n="experience.title">Berufserfahrung</h2>
+          <ol class="timeline" id="experience-list"></ol>
+        </div>
+        <div>
+          <h2 data-i18n="education.title">Ausbildung</h2>
+          <ol class="timeline" id="education-list"></ol>
+          <h2 class="mt" data-i18n="languages.title">Sprachen</h2>
+          <div id="languages-list" class="langs"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2 data-i18n="skills.title">Kenntnisse</h2>
+        <div class="skills" id="skills-list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="wrap contact-inner">
+        <h2 data-i18n="contact.title">Kontakt</h2>
+        <p data-i18n="contact.text"></p>
+        <div class="cta center">
+          <a class="btn primary" href="mailto:nasreddinbenhamouda@gmail.com"><span data-i18n="contact.email">E-Mail schreiben</span></a>
+          <a class="btn ghost" href="https://github.com/Nasreddin-Ben-Hamouda" target="_blank" rel="noopener"><span data-i18n="contact.github">GitHub-Profil</span></a>
+        </div>
+        <p class="mail" dir="ltr">nasreddinbenhamouda@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">© <span id="year"></span> Nasreddine Ben Hamouda · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
